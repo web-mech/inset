@@ -19,3 +19,14 @@ let sentence = inset('Hi, My name is {person.name.first} and I am {person.age}',
 // Hi, My name is Mike and I am 40'
 ```
 
+
+#### Developing & Contributing
+
+Using mocha & chaijs for simple unit tests.
+
+
+```
+NODE_ENV=development npm install
+
+npm test
+```
