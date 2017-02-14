@@ -1,6 +1,6 @@
 # Inset
 
-### A super-simple, ultra-lightweight (323B) interpolation module
+### A super-simple, ultra-lightweight (330B) interpolation module
 
 #### Usage
 
