@@ -40,7 +40,7 @@ describe('inset', function() {
   });
 
   it('Will ignore properties that aren\'t found', function() {
-    var sentence = inset('Hi, My name is {person.name.first} and I am 40{person.age}', {
+    var sentence = inset('Hi, My name is {person.name.first} and I am 40{person.age}{person.age.data}', {
       person: {
         name: {
           first: 'Mike'
