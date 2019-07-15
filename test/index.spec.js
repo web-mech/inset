@@ -49,4 +49,12 @@ describe('inset', function() {
     });
     expect(sentence).to.equal('Hi, My name is Mike and I am 40');
   });
+
+
+  it('Will interpolate a sentence with variables that are snake case', function() {
+    var sentence = inset('Hello {SNAKE_CASE}', {
+      SNAKE_CASE: 'world!'
+    });
+    expect(sentence).to.equal('Hello world!');
+  });
 });
